@@ -3,8 +3,11 @@ export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'regal-orange': "#F3762B"
+      }
+    },
   },
   plugins: [],
 }
-
