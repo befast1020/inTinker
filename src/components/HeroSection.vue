@@ -14,7 +14,7 @@
           with an AI powered Calibration system.
         </p>
       </div>
-      <div class="w-55/100">
+      <div class="w-7/12">
         <img class="w-full" src="/reddit-landing-hero.svg" alt="Landing Hero" />
       </div>
     </div>
@@ -29,7 +29,7 @@
       <h5 class="text-[#1D1E20] font-bold">2,400 + Happy Users</h5>
     </div>
     <div class="flex flex-row items-center">
-      <div class="basis-7/12">
+      <div class="w-5/12">
         <div class="flex flex-row items-center gap-x-3">
           <button
             class="bg-regal-orange text-white text-opacity-[0.85] hover:text-opacity-100 text-xl font-bold py-2 px-4 rounded">
@@ -43,7 +43,7 @@
           </div>
         </div>
       </div>
-      <div class="basis-2/3 flex flow-row items-center gap-x-6">
+      <div class="w-7/12 flex flow-row items-center gap-x-6">
         <img src="/Group 6021.svg" alt="Group 6021" />
         <p class="text-[38px] text-regal-orange font-bold">Hero</p>
         <img src="/Group 6017.svg" alt="Group 6017" />

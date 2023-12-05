@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto px-5 sm:px-6 lg:px-16 mt-6">
+  <div class="mt-6">
     <div class="font-Roboto font-bold text-md"># WHAT WE DO</div>
     <div class="w-6/12 font-bold text-sm text-black text-opacity-60">Use our AI powered calibration to tune new filaments
       or improve

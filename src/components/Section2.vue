@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto px-5 sm:px-6 lg:px-16 mt-6">
+  <div class="mt-6">
     <div class="font-Roboto font-bold text-md">
       #THE FASTEST AND EASIEST WAY TO SETUP NEW FILAMENTS
     </div>
