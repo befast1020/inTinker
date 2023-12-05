@@ -1,6 +1,6 @@
 <template>
   <Disclosure as="nav" v-slot="{ open }">
-    <div class="mx-auto px-5 sm:px-6 lg:px-16 mt-6">
+    <div class="mt-6">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -14,7 +14,7 @@
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-16 w-auto" src="/logo.png" alt="Your Company" />
+            <img class="h-16 w-auto" src="/logo.png" alt="Logo" />
             <span class="ml-2 font-bold text-[2rem]">inTinker</span>
           </div>
         </div>
@@ -22,7 +22,7 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <a v-for="item in navigation" :key="item.name" :href="item.href"
-                :class="[item.current ? 'bg-regal-orange text-white' : 'text-black hover:bg-regal-orange hover:text-white', 'rounded-md px-10 py-2 text-[1.3rem] text-opacity-[0.85] font-medium']"
+                :class="[item.current ? 'bg-regal-orange text-white hover:text-opacity-100 px-10' : 'px-5 text-black hover:bg-regal-orange hover:text-white', 'rounded-md py-2 text-[1.3rem] text-opacity-[0.85] font-medium']"
                 :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
             </div>
           </div>
