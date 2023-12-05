@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20">
+  <div class="max-w-[1350px] m-auto mt-20">
     <div class="flex flex-row gap-x-[50px]">
       <div class="w-5/12">
         <p class="text-regal-orange text-[55px] font-bold leading-[3.438rem]">3D PRINTING CALIBRATION <span
@@ -28,7 +28,7 @@
       </div>
       <h5 class="text-[#1D1E20] font-bold">2,400 + Happy Users</h5>
     </div>
-    <div class="flex flex-row items-center">
+    <div class="flex flex-row items-center gap-x-[50px]">
       <div class="w-5/12">
         <div class="flex flex-row items-center gap-x-3">
           <button
@@ -49,6 +49,10 @@
         <img src="/Group 6017.svg" alt="Group 6017" />
         <p class="text-[20px] text-black font-bold">Zero</p>
       </div>
+    </div>
+    <div class="flex flex-row gap-x-10 items-center justify-center mt-10">
+      <img src="/image 47.svg">
+      <img src="/image 48.svg">
     </div>
   </div>
 </template>
