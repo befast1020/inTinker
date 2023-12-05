@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-6">
+  <div class="mt-24 mb-48">
     <div class="font-Roboto font-bold text-md"># WHAT WE DO</div>
     <div class="w-6/12 font-bold text-sm text-black text-opacity-60">Use our AI powered calibration to tune new filaments
       or improve
@@ -45,19 +45,19 @@
           calibrations.</div>
         <div class="mt-2">
           <div class="flex font-bold text-sm items-center">
-            <CheckCircleIcon class="h-6 w-6 text-green-500 mr-2" />
+            <CheckCircleIcon class="h-6 w-6 text-green-500 mr-2" style="color: #A0D911;" />
             Quick
           </div>
           <div class="flex font-bold text-sm items-center">
-            <CheckCircleIcon class="h-6 w-6 text-green-500 mr-2" />
+            <CheckCircleIcon class="h-6 w-6 text-green-500 mr-2" style="color: #A0D911;" />
             Customized for you Setup
           </div>
           <div class="flex font-bold text-sm items-center">
-            <CheckCircleIcon class="h-6 w-6 text-green-500 mr-2" />
+            <CheckCircleIcon class="h-6 w-6 text-green-500 mr-2" style="color: #A0D911;" />
             One source of truth
           </div>
           <div class="flex font-bold text-sm items-center">
-            <CheckCircleIcon class="h-6 w-6 text-green-500 mr-2" />
+            <CheckCircleIcon class="h-6 w-6 text-green-500 mr-2" style="color: #A0D911;" />
             Data driven solutions
           </div>
         </div>
