@@ -1,12 +1,12 @@
 <template>
-  <div class="mt-24 mb-48">
+  <div class="max-w-[1350px] m-auto mt-20">
     <div class="font-Roboto font-bold text-md"># WHAT WE DO</div>
     <div class="w-6/12 font-bold text-sm text-black text-opacity-60">Use our AI powered calibration to tune new filaments
       or improve
       the print
       quality of
       ones
-      you’ve
+      you've
       been using by
       tuning retraction and temperature settings.
     </div>
