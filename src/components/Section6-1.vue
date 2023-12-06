@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[1350px] m-auto">
-    <div class="flex justify-between">
+    <div class="flex flex-col justify-between sm:flex-row">
       <div class="flex-1">
         <div class="font-Roboto font-bold text-sm">
           What is a Print Profile?
@@ -13,9 +13,22 @@
           get used to update the Print Profile.
         </div>
         <img src="/img(sec6-1-1).svg" class="mt-4" />
-        <img src="/img(sec6-1-2).svg" class="mt-4" />
+        <div>
+          <div class="flex mb-4">
+            <img src="/check.svg" />
+            <p class="ml-4">Sort by Printer, Material and Nozzle size</p>
+          </div>
+          <div class="flex mb-4">
+            <img src="/check.svg" />
+            <p class="ml-4">View Calibrations used in that Print Profile</p>
+          </div>
+          <div class="flex mb-4">
+            <img src="/check.svg" />
+            <p class="ml-4">Download the Print Profile easily for regular use</p>
+          </div>
+        </div>
         <button
-          class="bg-regal-orange text-white text-opacity-[0.85] hover:text-opacity-100 text-xl font-bold py-2 px-4 rounded mt-5">
+          class="bg-regal-orange text-white text-opacity-[0.85] hover:text-opacity-100 text-xl font-bold py-2 px-4 rounded mt-5 flex m-auto sm:ml-0">
           Start Calibration for FREE
         </button>
       </div>

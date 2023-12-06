@@ -1,12 +1,11 @@
 <template>
-	<div class="max-w-[1350px] m-auto mt-[150px] mb-[100px]">
+	<div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-[150px] mb-[100px]">
 		<div>
 			<p class="font-Roboto font-bold text-[30px] text-center">
 				Frequently Asked Questions
 			</p>
 			<p class="font-Roboto text-[14px] text-center">Everything you need to know about the product and billing.</p>
 		</div>
-
 		<CAccordion />
 	</div>
 </template>

@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-[1350px] m-auto">
-    <div class="flex justify-between">
-      <div class="max-w-[450px]">
+  <div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-[200px]">
+    <div class="flex justify-between flex-col sm:flex-row">
+      <div class="sm:max-w-[450px]">
         <div class="font-Roboto font-bold text-sm">
           Freestyle Print
         </div>
@@ -19,7 +19,7 @@
           <p class="text-black text-opacity-60 font-bold">Freestyle Prints contribute to the AI model</p>
         </div>
       </div>
-      <div class="max-w-[450px]">
+      <div class="sm:max-w-[450px] mt-[70px] sm:mt-0">
         <div class="font-Roboto font-bold text-sm flex">
           <img src="/wand.svg" class="mr-2" />
           <p>AI Print</p>
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col items-center mt-10">
+    <div class="flex flex-col items-center mt-[70px] sm:mt-10 ">
       <p class="font-Roboto font-bold text-sm flex text-black text-opacity-[0.85] mb-4">Mix and Match Prints</p>
       <p class="max-w-[470px] text-center font-bold text-black text-opacity-60">Start the Calibration with a Freestyle
         Print

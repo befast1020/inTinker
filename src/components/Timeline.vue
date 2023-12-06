@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <img src="/timeline.svg" class="mt-2" />
+    <img src="/timeline.svg" class="mt-2 hidden sm:block" />
     <div class="ml-4">
       <div class="font-bold text-[24px] text-black text-opacity-[0.85] ml-4">Create Assets</div>
       <div class="bg-[#F8F8F8] rounded-lg px-4 py-2 mt-7">
@@ -12,14 +12,15 @@
           custom printer or material with any build plate size, start end gcode, print temperature range and many
           more options.</p>
       </div>
-      <div class="mt-6 ml-4">
+      <img src="/img(sec7-1-mobile).svg" class="w-full sm:hidden" />
+      <div class="mt-6 ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Print Profile</p>
         <p class="text-[14px] max-w-[460px] text-black text-opacity-60">Create a print profile using any combination of
           printer, material and
           nozzle size. </p>
       </div>
-      <div class="font-bold text-[24px] mt-[205px] ml-4">Run Calibration</div>
-      <div class="mt-4 ml-4">
+      <div class="font-bold text-[24px] mt-[205px] ml-4 hidden sm:block">Run Calibration</div>
+      <div class="mt-4 ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Start a Calibration</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">
@@ -31,7 +32,7 @@
           </a>
         </div>
       </div>
-      <div class="mt-8 ml-4">
+      <div class="mt-8 ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Add Prints</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">
@@ -43,7 +44,7 @@
           </a>
         </div>
       </div>
-      <div class="mt-[50px] ml-4">
+      <div class="mt-[50px] ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Print and Score Quality</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">
@@ -56,7 +57,7 @@
           </a>
         </div>
       </div>
-      <div class="mt-[85px] ml-4">
+      <div class="mt-[85px] ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Repeat</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">
@@ -66,7 +67,7 @@
           </p>
         </div>
       </div>
-      <div class="mt-[110px] ml-4">
+      <div class="mt-[110px] ml-4 hidden sm:block">
         <p class="font-bold text-[24px]">Export Settings to Cura</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">

@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-[1350px] m-auto">
-    <div class="flex justify-between">
+  <div class="max-w-[500px] sm:max-w-[1350px] mt-[200px] m-auto">
+    <div class="flex justify-between flex-col sm:flex-row">
       <div class="flex-1">
         <div class="font-Roboto font-bold text-sm flex">
           <img src="/wand.svg" class="mr-2" />
@@ -12,7 +12,7 @@
         </div>
         <img src="/img(sec6-4-1).svg" class="mt-4" />
         <button
-          class="bg-regal-orange text-white text-opacity-[0.85] hover:text-opacity-100 text-xl font-bold py-2 px-4 rounded mt-5">
+          class="bg-regal-orange text-white text-opacity-[0.85] hover:text-opacity-100 text-xl font-bold py-2 px-4 rounded mt-5 hidden sm:block">
           Start Calibration for FREE
         </button>
       </div>

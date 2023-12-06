@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-[1350px] m-auto mt-[150px] mb-[100px] flex justify-between">
+  <div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-[150px] mb-[100px] flex flex-col justify-between sm:flex-row">
     <div>
-      <p class="font-Roboto font-bold text-[30px] max-w-[360px] text-black text-opacity-[0.85]">
+      <p class="font-Roboto font-bold text-[30px] sm:max-w-[360px] text-black text-opacity-[0.85]">
         Read how Anne was able to reunite her passion for 3D Printing board game pieces with inTinker
       </p>
       <div class="flex flex-row mt-4">
@@ -11,7 +11,7 @@
         <StarIcon class="h-7 w-7 text-yellow-500" />
         <StarIcon class="h-7 w-7 text-yellow-500" />
       </div>
-      <div class="flex">
+      <div class="flex mt-2">
         <img src="/user.svg" class="w-[30px]" />
         <div class="ml-3">
           <p class="font-bold text-[16px]">Anne Young</p>
@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class="text-[14px] max-w-[800px] font-bold text-black text-opacity-60">
+    <div class="text-[14px] max-w-[800px] font-bold text-black text-opacity-60 mt-[80px] sm:mt-0">
       "So glad I found InTinker. After a year of replacing parts, upgrading parts, constantly trying different brands
       of filament, and printing nothing but Calibration tests (unsuccessfully), including planes, cubes, boats etc. I
       finally googled 3D Printer calibration software and my 3D printing hobby was forever changed.<br /><br />

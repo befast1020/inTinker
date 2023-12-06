@@ -1,15 +1,15 @@
 <template>
   <div class="bg-[#F8F9FA] py-10">
-    <div class="max-w-[1350px] m-auto">
-      <div class="flex flow-row">
-        <div class="w-1/3">
+    <div class="max-w-[500px] sm:max-w-[1350px] m-auto">
+      <div class="flex flex-col sm:flex-row">
+        <div class="flex items-center flex-col sm:items-start sm:w-1/3">
           <div class="flex flex-shrink-0 items-center">
             <img class="h-16 w-auto" src="/logo.png" alt="Logo" />
             <span class="ml-2 font-bold text-[2rem]">inTinker</span>
           </div>
           <p>3D Printing Calibrations Powered by AI</p>
         </div>
-        <div class="flex flex-col w-1/3 items-center">
+        <div class="flex items-center flex-col sm:w-1/3">
           <p class="font-bold leading-8">
             Start a Calibration Today
           </p>
@@ -19,9 +19,9 @@
             Start Calibration for FREE
           </button>
         </div>
-        <div class="w-1/3 text-right">
-          <p class="font-bold leading-8">Company</p>
-          <p class="leading-8">Features</p>
+        <div class="text-center sm:w-1/3 sm:text-right">
+          <p class="font-bold leading-8 mt-[50px] sm:mt-0">Company</p>
+          <p class="leading-8 mt-[50px] sm:mt-0">Features</p>
           <p class="leading-8">Pricing</p>
           <p class="leading-8">About</p>
           <p class="leading-8">Blog</p>

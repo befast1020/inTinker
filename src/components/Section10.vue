@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1350px] m-auto mt-[150px] mb-[100px]">
+  <div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-[150px] mb-[100px]">
     <p class="font-Roboto font-bold text-[30px]">
       # ABOUT US
     </p>
@@ -12,7 +12,7 @@
       evolving to meet the needs of 3D printing enthusiasts, making each 3D printing project a smooth and rewarding
       experience.
     </p>
-    <div class="flex justify-between">
+    <div class="flex justify-between flex-col sm:flex-row">
       <div
         class="flex flex-col max-w-[800px] justify-center gap-y-[10px] text-black text-opacity-60 font-bold text-[14px]">
         <p>A note from the Founder,</p>
