@@ -21,7 +21,7 @@ export default {
         "regal-orange": "#F3762B",
       },
       maxWidth: {
-        sm: "450px",
+        sm: "400px",
         lg: "1350px",
       },
     },

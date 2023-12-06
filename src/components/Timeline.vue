@@ -19,8 +19,8 @@
           printer, material and
           nozzle size. </p>
       </div>
-      <div class="font-bold text-[24px] mt-[205px] ml-4 hidden sm:block">Run Calibration</div>
-      <div class="mt-4 ml-4 hidden sm:block">
+      <div class="font-bold text-[24px] mt-[250px] ml-4 hidden sm:block">Run Calibration</div>
+      <div class="mt-6 ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Start a Calibration</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">
@@ -32,7 +32,7 @@
           </a>
         </div>
       </div>
-      <div class="mt-8 ml-4 hidden sm:block">
+      <div class="mt-10 ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Add Prints</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">
@@ -44,7 +44,7 @@
           </a>
         </div>
       </div>
-      <div class="mt-[50px] ml-4 hidden sm:block">
+      <div class="mt-[70px] ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Print and Score Quality</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">
@@ -57,7 +57,7 @@
           </a>
         </div>
       </div>
-      <div class="mt-[85px] ml-4 hidden sm:block">
+      <div class="mt-[100px] ml-4 hidden sm:block">
         <p class="font-bold text-[16px]">Repeat</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">
@@ -67,7 +67,7 @@
           </p>
         </div>
       </div>
-      <div class="mt-[110px] ml-4 hidden sm:block">
+      <div class="mt-[130px] ml-4 hidden sm:block">
         <p class="font-bold text-[24px]">Export Settings to Cura</p>
         <div class="text-[14px] max-w-[420px]">
           <p class="text-black text-opacity-60">

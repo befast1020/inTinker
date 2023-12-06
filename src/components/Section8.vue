@@ -46,7 +46,7 @@
             33% OFF
           </div>
         </div>
-        <div class="flex justify-center gap-x-10 flex-col items-center mt-[50px] sm:mt-0 sm:justify-between sm:flex-row">
+        <div class="flex justify-center gap-x-10 flex-col items-center mt-[50px] sm:mt-6 sm:justify-around sm:flex-row">
           <div class="min-w-[370px] p-5 shadow-2xl rounded-2xl">
             <p class="font-semibold text-[22px] text-center">Explorer</p>
             <p class="text-black text-opacity-60 text-center my-4 font-semibold">A CAlibration System not using AI</p>
