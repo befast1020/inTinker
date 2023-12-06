@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="max-w-[1350px] m-auto mt-20 mb-[100px]">
         <div class="font-Roboto font-bold text-md">
             #FEATURES
         </div>
@@ -8,5 +8,9 @@
             simple, ensuring a smooth transition every time. From auto-calibration to easy analysis, explore what makes
             inTinker a handy companion for your 3D printing projects.
         </div>
+        <CTab />
     </div>
 </template>
+<script lang="ts" setup>
+import CTab from './CTab.vue';
+</script>

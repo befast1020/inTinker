@@ -8,6 +8,9 @@ export default {
         sm: "20px",
         md: "30px",
       },
+      lineHeight: {
+        sm: "28px",
+      },
       colors: {
         "regal-orange": "#F3762B",
       },
