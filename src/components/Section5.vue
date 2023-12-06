@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-center mb-[130px]">
+  <div class="flex flex-row justify-center my-[130px]">
     <div class="max-w-[1350px] mt-20 flex flex-col items-center">
       <p class="font-Roboto font-bold text-md text-center">How does AI help you?</p>
       <p class="font-Roboto text-sm">Learn more about how inTinker uses AI to help you in its calibrations.</p>
@@ -15,12 +15,12 @@
         <StarIcon class="h-7 w-7 text-yellow-500" />
         <StarIcon class="h-7 w-7 text-yellow-500" />
       </div>
-      <p class="max-w-[420px] text-center mt-2 font-Roboto">“Thanks for this incredible tool, this tool has blown me away.
+      <p class="max-w-[420px] text-center mt-2 font-Roboto">"Thanks for this incredible tool, this tool has blown me away.
         I've been
         able
         to solve an
         issue with my prints
-        after months of struggling.”
+        after months of struggling."
       </p>
       <img src="/img(sec5).svg" class="mt-4" />
     </div>

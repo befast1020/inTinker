@@ -1,22 +1,22 @@
 <template>
-    <div class="max-w-[1350px] m-auto mt-20 mb-[100px]">
+    <div class="max-w-[1350px] m-auto">
         <div class="flex justify-between">
             <div class="max-w-[450px]">
                 <div class="font-Roboto font-bold text-sm">
                     Freestyle Print
                 </div>
-                <div class="text-[14px] text-black text-opacity-60 max-w-screen-lg mt-4">
+                <div class="text-black text-opacity-60 max-w-screen-lg mt-4 font-bold">
                     Build your Temperature Tower according to settings you want to test. Manually type them into the table
                     and we generate the part for you. All you have to do is print it.
                 </div>
-                <div class="pl-4 mt-4">
+                <div class="pl-4 mt-4 leading-7">
                     <p class="font-Roboto font-bold text-[16px]">1. Add a Freestyle Print to your calibration</p>
                     <p class="font-Roboto font-bold text-[16px]">2. Type in the settings you want to use for each level</p>
                     <p class="font-Roboto font-bold text-[16px]">3. Download the configured calibration part</p>
                 </div>
                 <div class="flex mt-4">
                     <ExclamationCircleIcon class="w-[24px] mr-2" />
-                    <p class="text-bold">Freestyle Prints contribute to the AI model</p>
+                    <p class="text-black text-opacity-60 font-bold">Freestyle Prints contribute to the AI model</p>
                 </div>
             </div>
             <div class="max-w-[450px]">
@@ -24,24 +24,26 @@
                     <img src="/wand.svg" class="mr-2" />
                     <p>AI Print</p>
                 </div>
-                <div class="text-[14px] text-black text-opacity-60 max-w-screen-lg mt-4">
+                <div class="text-black text-opacity-60 max-w-screen-lg mt-4 font-bold">
                     Have AI build a temperature tower for you according to what settings have worked in the past
                 </div>
-                <div class="pl-4 mt-4">
+                <div class="pl-4 mt-4 leading-7">
                     <p class="font-Roboto font-bold text-[16px]">1. Add an AI Print to your calibration</p>
                     <p class="font-Roboto font-bold text-[16px]">
                     <div class="font-Roboto font-bold text-[16px]">2. Adjust the AI parameters or leave as is</div>
-                    <a href=" #" style="color:#F3762B;display: inline-block;" class="ml-4">
+                    <span class="text-regal-orange ml-4 border-b-2 border-regal-orange">
                         Learn More about AI behavior>
-                    </a>
+                    </span>
                     </p>
-                    <p class="font-Roboto font-bold text-[16px]">3. Download the configured calibration part</p>
+                    <p class="font-Roboto font-bold text-[16px] mt-4">3. Download the configured calibration part</p>
                 </div>
             </div>
         </div>
         <div class="flex flex-col items-center mt-10">
-            <p class="font-Roboto font-bold text-sm flex">Mix and Match Prints</p>
-            <p class="max-w-[470px] text-center ">Start the Calibration with a Freestyle Print that uses settings you've
+            <p class="font-Roboto font-bold text-sm flex text-black text-opacity-[0.85] mb-4">Mix and Match Prints</p>
+            <p class="max-w-[470px] text-center font-bold text-black text-opacity-60">Start the Calibration with a Freestyle
+                Print
+                that uses settings you've
                 used
                 in the
                 past. This give the AI a

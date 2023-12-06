@@ -1,7 +1,8 @@
 <template>
-  <div class="max-w-[1350px] m-auto mt-20">
-    <div class="font-Roboto font-bold text-md"># WHAT WE DO</div>
-    <div class="w-6/12 font-bold text-sm text-black text-opacity-60">Use our AI powered calibration to tune new filaments
+  <div class="max-w-[1350px] m-auto mt-[130px]">
+    <div class="font-Roboto font-bold text-[30px]"># WHAT WE DO</div>
+    <div class="max-w-[800px] font-bold text-black text-opacity-60 text-[19px]">Use our AI powered calibration to tune new
+      filaments
       or improve
       the print
       quality of
@@ -17,7 +18,8 @@
     <div class="flex justify-between px-10">
       <div class="mt-8">
         <div class="font-Roboto font-bold text-md">Past</div>
-        <div class="font-bold text-sm text-black text-opacity-60 w-2/3">Looking through reddit,facebook and youtube
+        <div class="font-bold text-sm text-black text-opacity-60 max-w-[400px]">Looking through reddit,facebook and
+          youtube
           to
           find solutions</div>
         <div class="mt-2">
@@ -41,7 +43,7 @@
       </div>
       <div class="mt-10">
         <div class="font-Roboto font-bold text-md">Now</div>
-        <div class="font-bold text-sm text-black text-opacity-60 w-2/3">A digital notebook infused with AI to run
+        <div class="font-bold text-sm text-black text-opacity-60 max-w-[450px]">A digital notebook infused with AI to run
           calibrations.</div>
         <div class="mt-2">
           <div class="flex font-bold text-sm items-center">

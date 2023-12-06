@@ -58,7 +58,7 @@
       <div class="flex flex-col">
         <div>
           <div class="flex gap-x-5 mt-20">
-            <img src="/arrow-big-down-lines.svg" />
+            <img src="/arrow-big-up-lines.svg" />
             <p class="font-Roboto font-bold text-[30px]">
               AI Outputs
             </p>

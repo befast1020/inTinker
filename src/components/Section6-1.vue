@@ -1,11 +1,11 @@
 <template>
-    <div class="max-w-[1350px] m-auto mt-20 mb-[100px]">
+    <div class="max-w-[1350px] m-auto">
         <div class="flex justify-between">
             <div class="flex-1">
                 <div class="font-Roboto font-bold text-sm">
                     What is a Print Profile?
                 </div>
-                <div class="text-[14px] text-black text-opacity-60 max-w-screen-lg mt-4">
+                <div class="text-[14px] text-black text-opacity-60 max-w-screen-lg mt-4 font-bold">
                     Think of a Print Profile as the starting and ending points of a Calibration. You start with a base Print
                     Profile
                     then do calibrations to make modifications on that Print Profile. Once the calibrations are done, the

@@ -17,7 +17,7 @@ import Section8 from './components/Section8.vue'
   <HeroSection />
   <Section1 />
   <Section2 />
-  <div :class="$style.bgGrad" class="text-white mt-20 py-10">
+  <div :class="$style.bgGrad" class="text-white mt-[300px] py-10">
     <Section3 />
     <Section4 />
     <Section5 />

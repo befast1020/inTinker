@@ -1,9 +1,9 @@
 <template>
   <div class="max-w-[1350px] m-auto mt-24">
-    <p class="font-Roboto font-bold text-[30px]">#AI Insights</p>
+    <p class="font-Roboto font-bold text-[30px]"># AI Insights</p>
     <div class="flex justify-between mt-5">
       <p class="max-w-[660px] ">
-        Discover the insights drawn from inTinker’s AI through these graphs below. Each graph reflects the balanced
+        Discover the insights drawn from inTinker's AI through these graphs below. Each graph reflects the balanced
         tuning across different settings, offering a glimpse into the systematic approach behind the scenes
       </p>
       <div class="flex flex-col items-end w-[200px]">
@@ -14,7 +14,7 @@
         </p>
       </div>
     </div>
-    <div class="flex bg-white justify-center rounded-xl shadow-2xl mt-4">
+    <div class="flex bg-white justify-center rounded-xl my-10" style="box-shadow: 4px 4px 14px 15px #fff;">
       <img src="/img(sec4-1).svg" />
       <img src="/img(sec4-2).svg" />
       <img src="/img(sec4-3).svg" />
