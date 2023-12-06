@@ -28,7 +28,7 @@ import Footer from './components/Footer.vue'
   <Section7 />
   <Section71 />
   <Section8 />
-  <Section9 /
+  <Section9 />
   <Footer />
 </template>
 
