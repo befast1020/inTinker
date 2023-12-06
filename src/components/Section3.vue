@@ -52,7 +52,7 @@
           </p>
         </div>
       </div>
-      <div class="flex items-center mt-6 sm:mt-0">
+      <div class="flex items-center mt-6 m-auto sm:m-0">
         <img src="/image 54.svg" />
       </div>
       <div class="flex flex-col">
