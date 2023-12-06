@@ -27,6 +27,7 @@
                 <p>Sincerly,<br>
                     Trevor Haas</p>
             </div>
+            <img src="/img(sec10).svg" />
         </div>
     </div>
 </template>
