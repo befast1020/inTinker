@@ -29,7 +29,7 @@
         <p>Sincerly,<br>
           Trevor Haas</p>
       </div>
-      <img src=" /img(sec10).svg" />
+      <img src=" /img(sec10).svg" class="mt-[80px] sm:mt-0" />
     </div>
   </div>
 </template>
