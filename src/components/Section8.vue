@@ -11,11 +11,11 @@
           process.
         </p>
         <div class="flex flex-row mt-4">
-          <StarIcon class="h-7 w-7 text-yellow-500" />
-          <StarIcon class="h-7 w-7 text-yellow-500" />
-          <StarIcon class="h-7 w-7 text-yellow-500" />
-          <StarIcon class="h-7 w-7 text-yellow-500" />
-          <StarIcon class="h-7 w-7 text-yellow-500" />
+          <StarIcon class="h-7 w-7 text-yellow-300" />
+          <StarIcon class="h-7 w-7 text-yellow-300" />
+          <StarIcon class="h-7 w-7 text-yellow-300" />
+          <StarIcon class="h-7 w-7 text-yellow-300" />
+          <StarIcon class="h-7 w-7 text-yellow-300" />
         </div>
         <p class="text-[16px] text-black text-opacity-[0.85] mt-2">"By the way, so far the best quality I have been able
           to get

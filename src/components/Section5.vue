@@ -9,11 +9,11 @@
         <img src="/wand.svg" class="ml-2" />
       </button>
       <div class="flex flex-row mt-4">
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
       </div>
       <p class="max-w-[420px] text-center mt-2 font-Roboto">"Thanks for this incredible tool, this tool has blown me away.
         I've been

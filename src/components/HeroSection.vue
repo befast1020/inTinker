@@ -27,11 +27,11 @@
     </div>
     <div>
       <div class="flex flex-row">
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
       </div>
       <h5 class="text-[#1D1E20] font-bold">2,400 + Happy Users</h5>
     </div>

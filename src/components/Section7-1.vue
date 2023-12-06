@@ -5,11 +5,11 @@
         Read how Anne was able to reunite her passion for 3D Printing board game pieces with inTinker
       </p>
       <div class="flex flex-row mt-4">
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
-        <StarIcon class="h-7 w-7 text-yellow-500" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
+        <StarIcon class="h-7 w-7 text-yellow-300" />
       </div>
       <div class="flex mt-2">
         <img src="/user.svg" class="w-[30px]" />
