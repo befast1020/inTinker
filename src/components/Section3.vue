@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] sm:max-w-[1350px] m-auto">
+  <div class="max-w-sm sm:max-w-lg m-auto">
     <div class="flex gap-x-5">
       <img src="/Group 6053.svg" />
       <p class="font-Roboto font-bold text-[30px]">

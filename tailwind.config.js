@@ -20,6 +20,10 @@ export default {
       colors: {
         "regal-orange": "#F3762B",
       },
+      maxWidth: {
+        sm: "450px",
+        lg: "1350px",
+      },
     },
   },
 };

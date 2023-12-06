@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-row justify-center my-[130px]">
-    <div class="max-w-[500px] sm:max-w-[1350px] mt-20 flex flex-col items-center">
+    <div class="max-w-sm sm:max-w-lg mt-20 flex flex-col items-center">
       <p class="font-Roboto font-bold text-md text-center">How does AI help you?</p>
       <p class="font-Roboto text-sm">Learn more about how inTinker uses AI to help you in its calibrations.</p>
       <button

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] sm:max-w-[1350px] m-auto my-[130px]">
+  <div class="max-w-sm sm:max-w-lg m-auto my-[130px]">
     <div class="font-Roboto font-bold text-[30px] hidden sm:block">
       # THE FASTEST AND EASIEST WAY TO SETUP NEW FILAMENTS
     </div>

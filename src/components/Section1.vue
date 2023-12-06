@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-[130px]">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[130px]">
     <div class="font-Roboto font-bold text-[30px]"># WHAT WE DO</div>
     <div class="max-w-[800px] font-bold text-black text-opacity-60 text-[19px]">Use our AI powered calibration to tune new
       filaments

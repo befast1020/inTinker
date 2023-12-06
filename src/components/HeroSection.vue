@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-20">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-20">
     <div class="flex flex-col gap-x-[50px] sm:flex-row">
       <div class="sm:w-5/12">
         <p class="text-regal-orange text-[40px] font-bold leading-[3.438rem] sm:text-[55px]">3D PRINTING CALIBRATION <span

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-[150px] mb-[100px]">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px]">
     <div class="flex flex-col items-center sm:justify-between sm:flex-row">
       <div class="flex flex-col justify-center sm:max-w-[420px]">
         <div class="font-Roboto font-bold text-md sm:max-w-[500px]">

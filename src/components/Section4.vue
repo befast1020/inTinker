@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-24">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-24">
     <p class="font-Roboto font-bold text-[30px]"># AI Insights</p>
     <div class="flex justify-between mt-5">
       <p class="max-w-[660px] ">

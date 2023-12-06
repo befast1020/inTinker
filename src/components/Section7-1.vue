@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] sm:max-w-[1350px] m-auto mt-[150px] mb-[100px] flex flex-col justify-between sm:flex-row">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px] flex flex-col justify-between sm:flex-row">
     <div>
       <p class="font-Roboto font-bold text-[30px] sm:max-w-[360px] text-black text-opacity-[0.85]">
         Read how Anne was able to reunite her passion for 3D Printing board game pieces with inTinker

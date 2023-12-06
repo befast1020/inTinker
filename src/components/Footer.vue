@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#F8F9FA] py-10">
-    <div class="max-w-[500px] sm:max-w-[1350px] m-auto">
+    <div class="max-w-sm sm:max-w-lg m-auto">
       <div class="flex flex-col sm:flex-row">
         <div class="flex items-center flex-col sm:items-start sm:w-1/3">
           <div class="flex flex-shrink-0 items-center">
