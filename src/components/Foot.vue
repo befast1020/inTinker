@@ -25,7 +25,8 @@
           <p class="leading-8 cursor-pointer" @click="handleClickFeatures('section8')">Pricing</p>
           <p class="leading-8 cursor-pointer" @click="handleClickFeatures('section10')">About</p>
           <a href="https://www.intinker.com/blog" target="_blank" class="leading-8 cursor-pointer">Blog</a>
-          <a href="https://www.intinker.com/termsandconditions" target="_blank" class="leading-8">Terms and Conditions</a>
+          <a href="https://www.intinker.com/termsandconditions" target="_blank" class="leading-8">Terms and
+            Conditions</a>
         </div>
       </div>
     </div>
@@ -34,7 +35,17 @@
     <p class="text-[#667085] text-[18px] text-center">2023 Copyright: intinker.com</p>
   </div>
 </template>
-
+<script lang="ts" setup>
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 500,
+  duration: 1500,
+  distance: '80px',
+  reset: 'false',
+  opacity: 0,
+});
+</script>
 <script lang="ts">
 export default {
   methods: {

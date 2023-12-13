@@ -16,9 +16,10 @@ import CTab from './CTab.vue';
 import { createScrollRevealDirective } from 'vue-scroll-reveal';
 const vScrollReveal = createScrollRevealDirective({
   class: 'v-scroll-reveal',
-  delay: 200,
-  duration: 1000,
+  delay: 500,
+  duration: 1500,
   distance: '80px',
+  reset: false,
   opacity: 0,
 });
 </script>

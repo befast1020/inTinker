@@ -13,7 +13,7 @@ import Section8 from './components/Section8.vue'
 import Section9 from './components/Section9.vue'
 import Section10 from './components/Section10.vue'
 // import CImage from './components/CImage.vue'
-import Footer from './components/Footer.vue'
+import Foot from './components/Foot.vue'
 </script>
 
 <script lang="ts">
@@ -52,7 +52,7 @@ export default {
   <Section8 />
   <Section9 />
   <Section10 />
-  <Footer />
+  <Foot />
 </template>
 
 <style module>

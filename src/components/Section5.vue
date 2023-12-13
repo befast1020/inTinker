@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-center my-[130px]">
+  <div class="flex flex-row justify-center my-[130px]" v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }">
     <div class="max-w-sm sm:max-w-lg mt-20 flex flex-col items-center">
       <p class="font-Roboto font-bold text-md text-center">How does AI help you?</p>
       <p class="font-Roboto text-sm">Learn more about how inTinker uses AI to help you in its calibrations.</p>
@@ -29,6 +29,15 @@
 </template>
 <script lang="ts" setup>
 import { StarIcon } from '@heroicons/vue/24/solid';
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 500,
+  duration: 1500,
+  distance: '80px',
+  reset: false,
+  opacity: 0,
+});
 </script>
 
 <script lang="ts">

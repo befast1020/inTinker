@@ -1,11 +1,10 @@
 <template>
   <div class="flex">
-    <img src="/timeline.svg" class="mt-2 hidden sm:block" />
+    <img src="/timeline.svg" class="mt-2 hidden sm:block"
+      v-scroll-reveal.reset="{ origin: 'top', delay: 200, distance: '30px' }" />
     <div class="ml-4">
-      <div class="font-bold text-[24px] text-black text-opacity-[0.85] ml-4"
-        v-scroll-reveal.reset="{ origin: 'top', delay: 200, distance: '30px' }">Create Assets</div>
-      <div class="bg-[#F8F8F8] rounded-lg px-4 py-2 mt-[120px]"
-        v-scroll-reveal.reset="{ origin: 'top', delay: 200, distance: '30px' }">
+      <div class="font-bold text-[24px] text-black text-opacity-[0.85] ml-4">Create Assets</div>
+      <div class="bg-[#F8F8F8] rounded-lg px-4 py-2 mt-[120px]">
         <p class="font-bold text-[16px] text-opacity-[0.85]">Printer and Material</p>
         <p class="text-[14px] max-w-[460px] text-black text-opacity-60">Select a pre configured printer and material, If
           we dont have what your
@@ -84,7 +83,17 @@
   </div>
 </template>
 
-
+<script lang="ts" setup>
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 500,
+  duration: 1500,
+  distance: '80px',
+  reset: false,
+  opacity: 0,
+});
+</script>
 <script lang="ts">
 export default {
   props: {

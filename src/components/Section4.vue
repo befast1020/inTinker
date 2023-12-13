@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto mt-24">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-24" v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }">
     <p class="font-Roboto font-bold text-[30px]"># AI Insights</p>
     <div class="flex justify-between mt-5">
       <p class="max-w-[660px] ">
@@ -29,4 +29,13 @@
 </template>
 <script lang="ts" setup>
 import { ExclamationCircleIcon } from '@heroicons/vue/24/outline'
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 500,
+  duration: 1500,
+  distance: '80px',
+  reset: false,
+  opacity: 0,
+});
 </script>

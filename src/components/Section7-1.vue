@@ -1,5 +1,6 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px] flex flex-col justify-between sm:flex-row">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px] flex flex-col justify-between sm:flex-row"
+    v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }">
     <div>
       <p class="font-Roboto font-bold text-[30px] sm:max-w-[360px] text-black text-opacity-[0.85]">
         Read how Anne was able to reunite her passion for 3D Printing board game pieces with inTinker
@@ -38,4 +39,13 @@
 
 <script lang="ts" setup>
 import { StarIcon } from '@heroicons/vue/24/solid';
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 500,
+  duration: 1500,
+  distance: '80px',
+  reset: false,
+  opacity: 0,
+});
 </script>

@@ -1,5 +1,6 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px] relative" id="section7" v-on:scroll="handleScroll">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[200px] mb-[100px] relative" id="section7" v-on:scroll="handleScroll"
+    v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }">
     <div class="sticky top-0 bg-white z-40 p-2">
       <div class="font-Roboto font-bold text-[30px] hidden sm:block">
         # HOW IT WORKS
@@ -28,9 +29,10 @@ import CImageScroll from './CImageScroll.vue';
 import { createScrollRevealDirective } from 'vue-scroll-reveal';
 const vScrollReveal = createScrollRevealDirective({
   class: 'v-scroll-reveal',
-  delay: 200,
-  duration: 400,
+  delay: 500,
+  duration: 1500,
   distance: '80px',
+  reset: false,
   opacity: 0,
 });
 
