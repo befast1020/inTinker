@@ -19,13 +19,13 @@
             Start Calibration for FREE
           </button>
         </div>
-        <div class="text-center sm:w-1/3 sm:text-right">
+        <div class="text-center sm:w-1/3 sm:text-right flex flex-col">
           <p class="font-bold leading-8 mt-[50px] sm:mt-0">Company</p>
-          <p class="leading-8 mt-[50px] sm:mt-0">Features</p>
-          <p class="leading-8">Pricing</p>
-          <p class="leading-8">About</p>
-          <p class="leading-8">Blog</p>
-          <p class="leading-8">Terms and Conditions</p>
+          <p class="leading-8 mt-[50px] sm:mt-0 cursor-pointer" @click="handleClickFeatures('section6')">Features</p>
+          <p class="leading-8 cursor-pointer" @click="handleClickFeatures('section8')">Pricing</p>
+          <p class="leading-8 cursor-pointer" @click="handleClickFeatures('section10')">About</p>
+          <a href="https://www.intinker.com/blog" target="_blank" class="leading-8 cursor-pointer">Blog</a>
+          <a href="https://www.intinker.com/termsandconditions" target="_blank" class="leading-8">Terms and Conditions</a>
         </div>
       </div>
     </div>
@@ -34,3 +34,16 @@
     <p class="text-[#667085] text-[18px] text-center">2023 Copyright: intinker.com</p>
   </div>
 </template>
+
+<script lang="ts">
+export default {
+  methods: {
+    handleClickFeatures(id: String) {
+      const htmlDocument: Document = window.document;
+      const position = htmlDocument.getElementById(id).offsetTop;
+      // smooth scroll
+      window.scrollTo({ top: position, behavior: "smooth" });
+    }
+  }
+}
+</script>

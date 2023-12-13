@@ -1,5 +1,6 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px]">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px]"
+    v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }" id="section10">
     <p class="font-Roboto font-bold text-[30px]">
       # ABOUT US
     </p>
@@ -34,4 +35,12 @@
   </div>
 </template>
 <script lang="ts" setup>
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 200,
+  duration: 1000,
+  distance: '80px',
+  opacity: 0,
+});
 </script>

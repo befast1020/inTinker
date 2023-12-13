@@ -4,25 +4,25 @@
       <button type="button"
         :class="[current === 'tab1' && 'bg-white', 'w-1/4 justify-center m-[7px] py-3 px-4 inline-flex items-center gap-x-2 bg-transparent text-sm font-medium text-center text-black text-opacity-[0.85] rounded-lg hover:bg-white']"
         id="pills-on-gray-color-item-1" data-hs-tab="#pills-on-gray-color-1" aria-controls="pills-on-gray-color-1"
-        role="tab" @click="handleChange('tab1')">
+        role="tab" @click="handleTab('tab1')">
         Print Profile Manager
       </button>
       <button type="button"
         :class="[current === 'tab2' && 'bg-white', 'w-1/4 justify-center m-[7px] py-3 px-4 inline-flex items-center gap-x-2 bg-transparent text-sm font-medium text-center text-black text-opacity-[0.85] rounded-lg hover:bg-white']"
         id="pills-on-gray-color-item-2" data-hs-tab="#pills-on-gray-color-2" aria-controls="pills-on-gray-color-2"
-        role="tab" @click="handleChange('tab2')">
+        role="tab" @click="handleTab('tab2')">
         Temperature Tower Generator
       </button>
       <button type="button"
         :class="[current === 'tab3' && 'bg-white', 'w-1/4 justify-center m-[7px] py-3 px-4 inline-flex items-center gap-x-2 bg-transparent text-sm font-medium text-center text-black text-opacity-[0.85] rounded-lg hover:bg-white']"
         id="pills-on-gray-color-item-3" data-hs-tab="#pills-on-gray-color-3" aria-controls="pills-on-gray-color-3"
-        role="tab" @click="handleChange('tab3')">
+        role="tab" @click="handleTab('tab3')">
         Freestyle or AI Prints
       </button>
       <button type="button"
         :class="[current === 'tab4' && 'bg-white', 'w-1/4 justify-center m-[7px] py-3 px-4 inline-flex items-center gap-x-2 bg-transparent text-sm font-medium text-center text-black text-opacity-[0.85] rounded-lg hover:bg-white']"
         id="pills-on-gray-color-item-4" data-hs-tab="#pills-on-gray-color-4" aria-controls="pills-on-gray-color-4"
-        role="tab" @click="handleChange('tab4')">
+        role="tab" @click="handleTab('tab4')">
         AI behavior
       </button>
     </nav>
@@ -50,16 +50,11 @@ import Section64 from './Section6-4.vue';
 
 <script lang="ts">
 export default {
-  data() {
-    return {
-      current: 'tab1'
-    }
+  props: {
+    current: { type: String },
+    handleTab: { type: Function }
   },
-  methods: {
-    handleChange(tab: string) {
-      this.current = tab;
-    }
-  }
+
 }
 
 </script>

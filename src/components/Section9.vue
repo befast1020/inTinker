@@ -1,5 +1,6 @@
 <template>
-	<div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px]">
+	<div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px]"
+		v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }">
 		<div>
 			<p class="font-Roboto font-bold text-[30px] text-center">
 				Frequently Asked Questions
@@ -11,4 +12,12 @@
 </template>
 <script lang="ts" setup>
 import CAccordion from './CAccordion.vue';
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+	class: 'v-scroll-reveal',
+	delay: 200,
+	duration: 1000,
+	distance: '80px',
+	// opacity: 0,
+});
 </script>

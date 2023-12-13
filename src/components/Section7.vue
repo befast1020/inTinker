@@ -1,24 +1,50 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px]">
-    <div class="font-Roboto font-bold text-[30px] hidden sm:block">
-      # HOW IT WORKS
-    </div>
-    <div class="font-Roboto font-bold text-[30px] sm:hidden">
-      # HOW THE SOFTWARE WORKS
-    </div>
-    <div class="font-bold text-sm text-black text-opacity-60 max-w-screen-lg">
-      Below takes you through a step by step example of what its like using inTinker to dial in a new material.
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px] relative" id="section7" v-on:scroll="handleScroll">
+    <div class="sticky top-0 bg-white z-40 p-2">
+      <div class="font-Roboto font-bold text-[30px] hidden sm:block">
+        # HOW IT WORKS
+      </div>
+      <div class="font-Roboto font-bold text-[30px] sm:hidden">
+        # HOW THE SOFTWARE WORKS
+      </div>
+      <div class="font-bold text-sm text-black text-opacity-60 max-w-screen-lg sticky">
+        Below takes you through a step by step example of what its like using inTinker to dial in a new material.
+      </div>
     </div>
     <div class="mt-10 flex">
-      <Timeline class="sm:w-1/2" />
-      <div class="flex flex-col align-center w-1/2 hidden sm:flex">
-        <img src="/img(sec7-1).svg" />
-        <img src="/img(sec7-2).svg" />
-        <img src="/img(sec7-3).svg" class="mt-[200px]" />
-      </div>
+      <Timeline :handleTab="handleTabClick" class="sm:w-1/2 " />
+      <CImageScroll />
+      <!-- <CImage /> -->
     </div>
   </div>
 </template>
+
+
 <script lang="ts" setup>
 import Timeline from './Timeline.vue';
+import CImageScroll from './CImageScroll.vue';
+// import CImage from './CImage.vue';
+
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 200,
+  duration: 400,
+  distance: '80px',
+  opacity: 0,
+});
+
+</script>
+
+<script lang="ts">
+export default {
+  props: {
+    handleTab: { type: Function }
+  },
+  methods: {
+    handleTabClick(tab: String) {
+      this.handleTab(tab);
+    }
+  }
+}
 </script>

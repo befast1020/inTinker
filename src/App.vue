@@ -12,21 +12,42 @@ import Section71 from './components/Section7-1.vue'
 import Section8 from './components/Section8.vue'
 import Section9 from './components/Section9.vue'
 import Section10 from './components/Section10.vue'
+// import CImage from './components/CImage.vue'
 import Footer from './components/Footer.vue'
+</script>
+
+<script lang="ts">
+export default {
+  data() {
+    return {
+      current: 'tab1'
+    }
+  },
+  methods: {
+    handleTab(tab: string) {
+      // console.log("tab: ", tab);
+      this.current = tab;
+    },
+
+  },
+
+}
+
 </script>
 
 <template>
   <Navigation />
   <HeroSection />
+  <!-- <CImage /> -->
   <Section1 />
   <Section2 />
   <div :class="$style.bgGrad" class="text-white mt-[300px] py-10">
     <Section3 />
     <Section4 />
-    <Section5 />
+    <Section5 :handleTab="handleTab" />
   </div>
-  <Section6 />
-  <Section7 />
+  <Section6 :currentTab="current" :handleTab="handleTab" />
+  <Section7 :handleTab="handleTab" />
   <Section71 />
   <Section8 />
   <Section9 />

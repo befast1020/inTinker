@@ -1,5 +1,6 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px]">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[150px] mb-[100px]" id="section8"
+    v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }">
     <div class="flex flex-col items-center sm:justify-between sm:flex-row">
       <div class="flex flex-col justify-center sm:max-w-[420px]">
         <div class="font-Roboto font-bold text-md sm:max-w-[500px]">
@@ -69,7 +70,9 @@
             <div class="flex font-bold text-sm items-center text-black text-opacity-60 my-2 text-[1rem]">
               <CheckCircleIcon class="h-6 w-6 mr-2 text-regal-orange" />
               Unlimited Freestyle Prints
-              <InformationCircleIcon class="h-5 w-5 mr-2 ml-1" />
+              <div title="Manually configure calibration parts by typing in settings">
+                <InformationCircleIcon class="h-5 w-5 mr-2 ml-1 cursor-pointer" />
+              </div>
             </div>
             <button
               class="w-full bg-regal-orange text-white text-opacity-[0.85] hover:text-opacity-100 text-xl font-bold py-3 px-4 mt-10 rounded-lg">
@@ -110,12 +113,16 @@
               <div class="flex font-bold text-sm items-center text-white my-2 text-[1rem]">
                 <CheckCircleIcon class="h-6 w-6 mr-2 text-white" />
                 Unlimited AI Prints
-                <InformationCircleIcon class="h-5 w-5 mr-2 ml-1" />
+                <div title="Use the AI as many times as youd like to get new print settings">
+                  <InformationCircleIcon class="h-5 w-5 mr-2 ml-1 cursor-pointer" />
+                </div>
               </div>
               <div class="flex font-bold text-sm items-center text-white my-2 text-[1rem]">
                 <CheckCircleIcon class="h-6 w-6 mr-2 text-white" />
                 3D Printing Help Chat
-                <InformationCircleIcon class="h-5 w-5 mr-2 ml-1" />
+                <div>
+                  <InformationCircleIcon class="h-5 w-5 mr-2 ml-1" title="" />
+                </div>
               </div>
               <div class="mt-10">
                 <div class="flex font-bold text-sm items-center text-white text-[0.8rem]">
@@ -142,6 +149,14 @@
 <script lang="ts" setup>
 import { StarIcon } from '@heroicons/vue/24/solid';
 import { CheckCircleIcon, InformationCircleIcon, CurrencyDollarIcon, HandThumbUpIcon } from '@heroicons/vue/24/outline';
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 200,
+  duration: 1000,
+  distance: '80px',
+  // opacity: 0,
+});
 </script>
 
 <script lang="ts">

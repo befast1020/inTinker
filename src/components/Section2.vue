@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto my-[130px]">
+  <div class="max-w-sm sm:max-w-lg m-auto my-[130px]" v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }">
     <div class="font-Roboto font-bold text-[30px] hidden sm:block">
       # THE FASTEST AND EASIEST WAY TO SETUP NEW FILAMENTS
     </div>
@@ -41,3 +41,15 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 200,
+  duration: 1000,
+  distance: '80px',
+  reset: 'false',
+  // opacity: 0,
+});
+</script>

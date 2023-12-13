@@ -1,5 +1,6 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto mt-[130px]">
+  <div class="max-w-sm sm:max-w-lg m-auto mt-[200px]" id="
+  section1" v-scroll-reveal.reset="{ origin: 'top', distance: '30px' }" @scroll="handleScroll">
     <div class="font-Roboto font-bold text-[30px]"># WHAT WE DO</div>
     <div class="max-w-[800px] font-bold text-black text-opacity-60 text-[19px]">Use our AI powered calibration to tune new
       filaments
@@ -41,7 +42,7 @@
         </div>
       </div>
       <div class="mt-6 sm:mt-1">
-        <img src="/img(sec1-2).svg" />
+        <img src="/img(sec1-2).svg" v-scroll-reveal.reset="{ origin: 'top', distance: '30px' }" />
         <div class="mt-10">
           <div class="font-Roboto font-bold text-md">Now</div>
           <div class="font-bold text-sm text-black text-opacity-60 max-w-[450px]">A digital notebook infused with AI to
@@ -72,4 +73,33 @@
 </template>
 <script lang="ts" setup>
 import { XCircleIcon, CheckCircleIcon } from '@heroicons/vue/24/outline'
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 200,
+  duration: 1000,
+  distance: '80px',
+  // reset: 'true',
+  opacity: 0,
+});
+</script>
+
+<script lang="ts">
+export default {
+  data() {
+    return {
+      scrollPosition: 50
+    }
+  },
+
+  methods: {
+    handleScroll: function (e: any) {
+      var currentScrollPosition = e.srcElement.scrollTop;
+      if (currentScrollPosition > this.scrollPosition) {
+        console.log("Scrolling down");
+      }
+      this.scrollPosition = currentScrollPosition;
+    }
+  }
+}
 </script>

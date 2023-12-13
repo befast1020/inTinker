@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg m-auto">
+  <div class="max-w-sm sm:max-w-lg m-auto" v-scroll-reveal.reset="{ origin: 'left', distance: '30px' }">
     <div class="flex gap-x-5">
       <img src="/Group 6053.svg" />
       <p class="font-Roboto font-bold text-[30px]">
@@ -81,3 +81,15 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+import { createScrollRevealDirective } from 'vue-scroll-reveal';
+const vScrollReveal = createScrollRevealDirective({
+  class: 'v-scroll-reveal',
+  delay: 200,
+  duration: 1000,
+  distance: '80px',
+  reset: 'false',
+  opacity: 0,
+});
+</script>

@@ -12,9 +12,13 @@
     "@headlessui/vue": "^1.7.16",
     "@heroicons/vue": "^2.0.18",
     "@preline/tabs": "^2.0.1",
+    "@vueuse/core": "^10.7.0",
+    "@what-a-faka/vue-scroll-reveal": "^0.1.4",
     "flowbite": "^2.2.0",
     "flowbite-vue": "^0.1.1",
-    "vue": "^3.3.8"
+    "scrollreveal": "^4.0.9",
+    "vue": "^3.3.8",
+    "vue-scroll-reveal": "^2.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.0",

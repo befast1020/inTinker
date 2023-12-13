@@ -4,7 +4,8 @@
       <p class="font-Roboto font-bold text-md text-center">How does AI help you?</p>
       <p class="font-Roboto text-sm">Learn more about how inTinker uses AI to help you in its calibrations.</p>
       <button
-        class="bg-white text-black text-opacity-[0.85] hover:text-opacity-100 text-xl font-bold py-4 px-4 rounded-lg mt-5 flex items-center">
+        class=" bg-white text-black text-opacity-[0.85] hover:text-opacity-100 text-xl font-bold py-4 px-4 rounded-lg mt-5 flex items-center"
+        @click="handleClick">
         Learn more About AI
         <img src="/wand.svg" class="ml-2" />
       </button>
@@ -28,4 +29,21 @@
 </template>
 <script lang="ts" setup>
 import { StarIcon } from '@heroicons/vue/24/solid';
+</script>
+
+<script lang="ts">
+export default {
+  props: {
+    handleTab: { type: Function }
+  },
+  methods: {
+    handleClick() {
+      this.handleTab("tab4");
+      const htmlDocument: Document = document;
+      const position = htmlDocument.getElementById("section6").offsetTop;
+      // smooth scroll
+      window.scrollTo({ top: position, behavior: "smooth" });
+    }
+  }
+}
 </script>

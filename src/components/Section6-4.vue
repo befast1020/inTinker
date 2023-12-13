@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm sm:max-w-lg mt-[200px] m-auto">
+  <div class="max-w-sm sm:max-w-lg m-auto" id="section64">
     <div class="flex justify-between flex-col sm:flex-row">
       <div class="flex-1">
         <div class="font-Roboto font-bold text-sm flex">
